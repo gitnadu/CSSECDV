@@ -571,13 +571,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1208,6 +1201,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1325,14 +1319,13 @@
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
-            },
-            "zIndex": 13
+            }
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "Adriel Fancubit",
-    "threatTop": 18
+    "threatTop": 19
   }
 }
